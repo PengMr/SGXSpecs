@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SGXModulezero"
   s.version      = "1.0.0"
-  s.summary      = "SGXModulezero."
+  s.summary      = "SGXModulezerosummary"
   s.description  = <<-DESC
                     this is SGXModulezero
                    DESC
