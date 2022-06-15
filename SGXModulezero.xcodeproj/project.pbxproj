@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BEB71632077D7FE44E1F24F /* libPods-SGXModulezero.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736185422E20A089EB864E41 /* libPods-SGXModulezero.a */; };
 		8975875727A4FBFA00D0955C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975875627A4FBFA00D0955C /* AppDelegate.m */; };
 		8975875A27A4FBFA00D0955C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975875927A4FBFA00D0955C /* SceneDelegate.m */; };
 		8975875D27A4FBFA00D0955C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975875C27A4FBFA00D0955C /* ViewController.m */; };
@@ -18,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		158D27B4018D28E80EB6AB53 /* Pods-SGXModulezero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXModulezero.release.xcconfig"; path = "Target Support Files/Pods-SGXModulezero/Pods-SGXModulezero.release.xcconfig"; sourceTree = "<group>"; };
-		736185422E20A089EB864E41 /* libPods-SGXModulezero.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGXModulezero.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8975875227A4FBFA00D0955C /* SGXModulezero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGXModulezero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8975875527A4FBFA00D0955C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8975875627A4FBFA00D0955C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,7 +29,6 @@
 		8975876427A4FBFB00D0955C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8975876627A4FBFB00D0955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8975876727A4FBFB00D0955C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF2FEAF4209E9794F71691A6 /* Pods-SGXModulezero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXModulezero.debug.xcconfig"; path = "Target Support Files/Pods-SGXModulezero/Pods-SGXModulezero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,28 +36,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEB71632077D7FE44E1F24F /* libPods-SGXModulezero.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		277914631AC317BB752B71A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				736185422E20A089EB864E41 /* libPods-SGXModulezero.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8975874927A4FBFA00D0955C = {
 			isa = PBXGroup;
 			children = (
 				8975875427A4FBFA00D0955C /* SGXModulezero */,
 				8975875327A4FBFA00D0955C /* Products */,
-				EBED152D1318B3E4779F7CF9 /* Pods */,
-				277914631AC317BB752B71A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,16 +76,6 @@
 			path = SGXModulezero;
 			sourceTree = "<group>";
 		};
-		EBED152D1318B3E4779F7CF9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FF2FEAF4209E9794F71691A6 /* Pods-SGXModulezero.debug.xcconfig */,
-				158D27B4018D28E80EB6AB53 /* Pods-SGXModulezero.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,7 +83,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8975876B27A4FBFB00D0955C /* Build configuration list for PBXNativeTarget "SGXModulezero" */;
 			buildPhases = (
-				7D6769D38D6277502F0E46F6 /* [CP] Check Pods Manifest.lock */,
 				8975874E27A4FBFA00D0955C /* Sources */,
 				8975874F27A4FBFA00D0955C /* Frameworks */,
 				8975875027A4FBFA00D0955C /* Resources */,
@@ -165,31 +139,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7D6769D38D6277502F0E46F6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SGXModulezero-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8975874E27A4FBFA00D0955C /* Sources */ = {
@@ -339,7 +288,6 @@
 		};
 		8975876C27A4FBFB00D0955C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2FEAF4209E9794F71691A6 /* Pods-SGXModulezero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,7 +306,6 @@
 		};
 		8975876D27A4FBFB00D0955C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 158D27B4018D28E80EB6AB53 /* Pods-SGXModulezero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
